@@ -24,7 +24,7 @@ Experimenting with AdventureWorks on your local system
 
 - run
 
-  docker.compose up -d
+  docker-compose up -d
 
 4. Populate your MySQL server with the data. You only need to do this once.
 
