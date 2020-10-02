@@ -12,3 +12,58 @@ schema.dot : a DOT script that was generated from the DB tables.
 schema.pdt : resulting pdf file
 
 
+----
+
+Java graphviz API:
+
+https://github.com/eternnoir/graphvizapi
+
+* Note that this API simply provides a way to write in Java the node and 
+  connection specifications, but in the end it generates a DOT file and
+  runs the system command "dot" to generate the image.
+
+* If you choose not to use this API, you can simply generate the DOT file 
+  as a text file, and run the following in your code:
+
+  Runtime rt = Runtime.getRuntime();
+  ....
+  Process p = rt.exec(dot_command_string);
+
+  - see Graphviz.java in the source, the get_img_stream() function.
+
+1. Clone the above repo
+
+2. Install maven to build the repo
+
+     sudo apt install maven
+   
+   or similar commands depending on your OS
+
+3. Go to the top graphvizapi directory where the pom.xml file is
+
+4. Run maven to build the api
+
+     mvn compile
+
+5. The class files can now be found in 
+
+     graphvizapi/target/classes
+
+6. Add the above to the your CLASSPATH environment variable.
+
+     export CLASSPATH=$CLASSPATH:..../graphvizapi/target/classes
+
+   * replace .... with the actual path.
+
+7. Build the graphvizJavaTest example
+
+     javac graphvizJavaTest
+
+8. Run it
+
+     java graphvizJavaTest
+
+9. Check the output
+
+     OutEx1.png
+ 
