@@ -28,6 +28,7 @@ Experimenting with AdventureWorks on your local system
 
 4. Populate your MySQL server with the data. You only need to do this once.
 
+- install mysql client if you have not installed it.
 - run
 
   mysql --host 127.0.0.1 --port 3306 -u root  -ppassword < AWBackup.sql 
