@@ -29,6 +29,7 @@ For JDBC, install libmysql-java
 	2. follow instructions in 
 
 	https://dev.mysql.com/doc/connector-j/5.1/en/connector-j-installing.html 	
+
 Once the JDBC mysql connector is installed, run the following in your shell:
 
 	export CLASSPATH=$CLASSPATH:/usr/share/java/mysql-connector-java.jar
@@ -36,5 +37,5 @@ Once the JDBC mysql connector is installed, run the following in your shell:
 	or
 
 	export CLASSPATH=$CLASSPATH:/usr/share/java/mysql-connector-java-8.0.26.jar 
-	(replace the version number with your specific version)
+	(replace the version number 8.0.26 with your specific version)
 
