@@ -15,8 +15,12 @@ For JDBC, install libmysql-java
 
 	* Ubuntu Linux (other distros may be similar)
 
-	sudo apt install libmysql-java
-	export CLASSPATH=$CLASSPATH:/usr/share/java/mysql-connector-java.jar
+        Go to https://dev.mysql.com/downloads/connector/j/ to download the package and install it.
+
+	- on older Ubuntu installs, the following may work.
+
+	   sudo apt install libmysql-java
+
 
 	* OSX / windows
 	
@@ -25,5 +29,12 @@ For JDBC, install libmysql-java
 	2. follow instructions in 
 
 	https://dev.mysql.com/doc/connector-j/5.1/en/connector-j-installing.html 	
+Once the JDBC mysql connector is installed, run the following in your shell:
+
+	export CLASSPATH=$CLASSPATH:/usr/share/java/mysql-connector-java.jar
 	
+	or
+
+	export CLASSPATH=$CLASSPATH:/usr/share/java/mysql-connector-java-8.0.26.jar 
+	(replace the version number with your specific version)
 

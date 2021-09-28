@@ -7,8 +7,16 @@
 import java.sql.*;
 
 public class JdbcExample {
+
    // JDBC driver name and database URL
+   // - depending on your JDBC connector version, comment out 
+   //   the appropriate line below.
+   // 
+   // 1. old version
    static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";  
+   // 2. new version 
+   // static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";  
+
    static final String DB_URL = "jdbc:mysql://localhost:3306";
 
    //  Database credentials
