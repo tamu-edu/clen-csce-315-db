@@ -15,7 +15,7 @@ public class JdbcExample {
    // 1. old version
    static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";  
    // 2. new version 
-   // static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";  
+   //static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";  
 
    static final String DB_URL = "jdbc:mysql://localhost:3306";
 
@@ -29,7 +29,7 @@ public class JdbcExample {
    try{
       //STEP 2: Register JDBC driver
       Class.forName("com.mysql.jdbc.Driver");
-      // Class.forName("com.mysql.cj.jdbc.Driver");
+      //Class.forName("com.mysql.cj.jdbc.Driver");
 
       //STEP 3: Open a connection
       System.out.println("Connecting to database...");
