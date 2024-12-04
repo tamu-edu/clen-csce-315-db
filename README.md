@@ -31,7 +31,12 @@ Experimenting with AdventureWorks on your local system  + JDBC connectivity, JAV
 
 4. Populate your MySQL server with the data. You only need to do this once.
 
-   install mysql client if you have not installed it.
+   Important: install the mysql client if you have not installed it.
+   ```
+   Ubuntu:     sudo apt install mysql-client
+   CentOS/RHL: sudo dnf install mysql
+   MacOS:      brew install mysql-client 
+   ```
 
    run (run with sudo for Linux/MacOS)
    ```
