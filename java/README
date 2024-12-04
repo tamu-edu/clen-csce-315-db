@@ -28,7 +28,7 @@ For JDBC, install libmysql-java
 
 	2. follow instructions in 
 
-	https://dev.mysql.com/doc/connector-j/5.1/en/connector-j-installing.html 	
+	https://dev.mysql.com/doc/connector-j/en/connector-j-installing.html
 
 Once the JDBC mysql connector is installed, run the following in your shell:
 
