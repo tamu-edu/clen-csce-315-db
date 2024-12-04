@@ -31,14 +31,8 @@ Experimenting with AdventureWorks on your local system  + JDBC connectivity, JAV
 
 4. Populate your MySQL server with the data. You only need to do this once.
 
-   Important: install the mysql client if you have not installed it.
-   ```
-   Ubuntu:     sudo apt install mysql-client
-   CentOS/RHL: sudo dnf install mysql
-   MacOS:      brew install mysql-client 
-   ```
-
    run (run with sudo for Linux/MacOS)
+
    ```
    mysql --host 127.0.0.1 --port 3306 -u root  -ppassword < AWBackup.sql 
    ```
@@ -47,8 +41,16 @@ Experimenting with AdventureWorks on your local system  + JDBC connectivity, JAV
 
 5. Login to your MySQL server
 
+   Important: first, install the mysql client if you have not installed it.
+
+   ```
+   Ubuntu:     sudo apt install mysql-client
+   CentOS/RHL: sudo dnf install mysql
+   MacOS:      brew install mysql-client 
+   ```
+
    run
-   
+
    ```
    mysql --host 127.0.0.1 --port 3306 -u root  -ppassword
    ```
