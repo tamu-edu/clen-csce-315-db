@@ -1,5 +1,7 @@
 
-# Experimenting with AdventureWorks on your local system  + JDBC connectivity, JAVA GUI 
+# 331-DB 
+
+Experimenting with AdventureWorks on your local system  + JDBC connectivity, JAVA GUI 
 
 1. Download AdventureWorks database from
 
