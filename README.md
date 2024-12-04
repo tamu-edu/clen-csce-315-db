@@ -1,10 +1,9 @@
 
-Experimenting with AdventureWorks on your local system 
-* JDBC connectivity, JAVA GUI (see java/ directory)
+# Experimenting with AdventureWorks on your local system  + JDBC connectivity, JAVA GUI 
 
 1. Download AdventureWorks database from
 
-  https://sourceforge.net/projects/awmysql/
+  (https://sourceforge.net/projects/awmysql/)[git@github.com:tamu-edu/clen-csce-choe-331-db.git]
 
   and unzip it to produce AWBackup.sql. 
 
