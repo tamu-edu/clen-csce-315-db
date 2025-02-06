@@ -23,11 +23,15 @@ Experimenting with AdventureWorks on your local system  + JDBC connectivity, JAV
 
 3. Start the container
 
-   run (run with sudo for Linux/MacOS)
+   * change MySQL version in docker-compose.yml as necessary.
+     - default is mysql:5.7
+     - change to mysql:8.4.3
+   
+   * run (run with sudo for Linux/MacOS)
 
-   ```
-   docker-compose up -d
-   ```
+     ```
+     docker-compose up -d
+     ```
 
 4. Populate your MySQL server with the data. You only need to do this once.
 
