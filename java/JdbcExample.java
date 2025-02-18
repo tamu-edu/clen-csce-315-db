@@ -13,11 +13,14 @@ public class JdbcExample {
    //   the appropriate line below.
    // 
    // 1. old version
-   static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";  
+   //static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";  
    // 2. new version 
-   //static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";  
+   static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";  
 
+   // 3. default URL
    static final String DB_URL = "jdbc:mysql://localhost:3306";
+   // 4. in case SSL not working 
+   // static final String DB_URL = "jdbc:mysql://localhost:3306?useSSL=false";
 
    //  Database credentials
    static final String USER = "root";

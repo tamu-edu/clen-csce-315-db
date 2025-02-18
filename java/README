@@ -39,3 +39,8 @@ Once the JDBC mysql connector is installed, run the following in your shell:
 	export CLASSPATH=$CLASSPATH:/usr/share/java/mysql-connector-java-8.0.26.jar 
 	(replace the version number 8.0.26 with your specific version)
 
+
+If it runs but you get an error, trying disabling SSL, by changing the DB_URL definition to include useSSL=false.
+
+	static final String DB_URL = "jdbc:mysql://localhost:3306?useSSL=false";
+
