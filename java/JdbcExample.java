@@ -45,7 +45,8 @@ public class JdbcExample {
       sql = "USE adventureworks;";
       ResultSet rs;
       //rs = stmt.executeQuery(sql); only works with old versions
-      rs = stmt.execute(sql);
+      //rs = stmt.execute(sql); 'execute' is not a valid command for the 'stmt' object (perhaps may exist in certain versions?)
+      stmt.executeUpdate(sql); 
       sql = "SELECT EmployeeId, LoginID from employee";
       rs = stmt.executeQuery(sql);
 
